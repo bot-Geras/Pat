@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pat</string>
+    <string name="logo_name">First. Best. Always.</string>
+    <string name="slogan_name">Not just better healthcare, but a better healthcare experience.</string>
+    <string name="powered_by">Powered By X.CO</string>
+
+
+    <!--Strings for on boarding screen-->
+
+    <!--Title-->
+
+    <string name="first_slide_title"></string>
+    <string name="second_slide_title"></string>
+    <string name="third_slide_title"></string>
+    <string name="fourth_slide_title"></string>
+
+    <!--Description-->
+
+    <string name="first_slide_desc"></string>
+    <string name="second_slide_desc"></string>
+    <string name="third_slide_desc"></string>
+    <string name="fourth_slide_desc"></string>
+
+    <!--buttons-->
+
+    <string name="skip_btn">skip</string>
+    <string name="next_btn">Next</string>
+    <string name="lets_get_started">Lets Get Started</string>
+
+
+</resources>
