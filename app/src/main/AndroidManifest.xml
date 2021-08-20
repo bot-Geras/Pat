@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PatApp">
         <activity
+            android:name=".Common.OnBoarding"
+            android:exported="true" />
+        <activity
             android:name=".User.PatientDashboard"
             android:exported="true" />
         <activity

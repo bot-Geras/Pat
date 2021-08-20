@@ -50,7 +50,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(SplashScreen.this, PatientDashboard.class);
+                Intent intent = new Intent(SplashScreen.this, OnBoarding.class);
                 startActivity(intent);
                 finish();
 

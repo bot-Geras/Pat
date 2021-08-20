@@ -9,17 +9,17 @@
 
     <!--Title-->
 
-    <string name="first_slide_title"></string>
-    <string name="second_slide_title"></string>
-    <string name="third_slide_title"></string>
-    <string name="fourth_slide_title"></string>
+    <string name="first_slide_title">Doctor Consultation</string>
+    <string name="second_slide_title">Medicine</string>
+    <string name="third_slide_title">Diagnosis</string>
+    <string name="fourth_slide_title">Treatment Plan</string>
 
     <!--Description-->
 
-    <string name="first_slide_desc"></string>
-    <string name="second_slide_desc"></string>
-    <string name="third_slide_desc"></string>
-    <string name="fourth_slide_desc"></string>
+    <string name="first_slide_desc">licensed health professionals who maintain and restore human health through the practice of medicine.</string>
+    <string name="second_slide_desc">aims to promote and maintain health and well being.</string>
+    <string name="third_slide_desc"> is a procedure (including Diagnostic Imaging) that is performed on a PATIENT in order to diagnose a condition disease or illness.</string>
+    <string name="fourth_slide_desc"> general outline of the treatment prescribed, and space to measure outcomes as the client progresses through treatment.</string>
 
     <!--buttons-->
 
