@@ -20,8 +20,9 @@
         android:layout_marginTop="356dp"
         android:text="@string/logo_name"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="30sp"
+        android:fontFamily="@font/bold"
         app:layout_constraintEnd_toEndOf="@+id/background_image"
         app:layout_constraintStart_toStartOf="@+id/background_image"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,8 +34,9 @@
         android:layout_marginBottom="16dp"
         android:text="@string/powered_by"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="15sp"
+        android:fontFamily="@font/bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/background_image" />

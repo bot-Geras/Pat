@@ -3,6 +3,8 @@
     <string name="logo_name">First. Best. Always.</string>
     <string name="slogan_name">Not just better healthcare, but a better healthcare experience.</string>
     <string name="powered_by">Powered By X.CO</string>
+    <string name="dashboard_welcome">Welcome, </string>
+    <string name="user_name">Welcome, Brian</string>
 
 
     <!--Strings for on boarding screen-->
@@ -13,13 +15,41 @@
     <string name="second_slide_title">Medicine</string>
     <string name="third_slide_title">Diagnosis</string>
     <string name="fourth_slide_title">Treatment Plan</string>
+    
+    <!--strings for dashboard -->
+    <!--card-->
+
+    <string name="consultation">consultation</string>
+    <string name="medicine">medicine</string>
+    <string name="Ambulance">emergency</string>
+    <string name="covid">covid-19</string>
+
+
+    <!--Categories-->
+    <string name="medication">medication</string>
+    <string name="nearby_hospitals">hospitals</string>
+    <string name="diagnosis_survey">diagnosis</string>
+    <string name="appointment">appointment</string>
+
+    <!--Titles and description-->
+    <string name="search_text">Search…</string>
+    <string name="view_all">View All</string>
+    <string name="categories">Categories</string>
+    <string name="most_viewed_Doctors">Most Viewed</string>
+    <string name="featured_location_description">All the locations that are featured and have the top demand in town</string>
+    <string name="featured_doctors">All Featured Doctors </string>
+
+
+    
+    
+    
 
     <!--Description-->
 
     <string name="first_slide_desc">licensed health professionals who maintain and restore human health through the practice of medicine.</string>
     <string name="second_slide_desc">aims to promote and maintain health and well being.</string>
-    <string name="third_slide_desc"> is a procedure (including Diagnostic Imaging) that is performed on a PATIENT in order to diagnose a condition disease or illness.</string>
-    <string name="fourth_slide_desc"> general outline of the treatment prescribed, and space to measure outcomes as the client progresses through treatment.</string>
+    <string name="third_slide_desc"> is a procedure that is performed on a PATIENT in order to diagnose a condition disease or illness.</string>
+    <string name="fourth_slide_desc"> general outline of the treatment prescribed. </string>
 
     <!--buttons-->
 

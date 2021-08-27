@@ -37,8 +37,7 @@ public class OnBoarding extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager
-                .LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_on_boarding);
 
         viewPager = findViewById(R.id.slider);
@@ -59,7 +58,8 @@ public class OnBoarding extends AppCompatActivity {
 
 
     public void skip(View view) {
-        startActivity(new Intent(this, PatientDashboard.class));
+        Intent intent = new Intent(getApplicationContext(), PatientDashboard.class);
+        startActivity(intent);
         finish();
 
     }
@@ -76,9 +76,9 @@ public class OnBoarding extends AppCompatActivity {
 
         dotsLayout.removeAllViews();
 
-        for (int i = 0; i < dots.length; i++) {
+        for (int i = 0; i <dots.length; i++) {
             dots[i] = new TextView(this);
-            dots[i].setText(Html.fromHtml("$#8226;"));
+            dots[i].setText(Html.fromHtml("&#8226;"));
             dots[i].setTextSize(35);
 
 

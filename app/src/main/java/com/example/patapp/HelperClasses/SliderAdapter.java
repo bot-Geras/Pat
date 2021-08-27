@@ -1,5 +1,6 @@
 package com.example.patapp.HelperClasses;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,21 +30,19 @@ public class SliderAdapter extends PagerAdapter {
             R.drawable.onboard_04
     };
 
-    int[] headings = {
+    int headings [] = {
             R.string.first_slide_title,
             R.string.second_slide_title,
             R.string.third_slide_title,
             R.string.fourth_slide_title
-
     };
 
     int[] descriptions = {
             R.string.first_slide_desc,
             R.string.second_slide_desc,
-            R.string.third_slide_title,
+            R.string.third_slide_desc,
             R.string.fourth_slide_desc
     };
-
 
     @Override
     public int getCount() {
@@ -52,21 +51,19 @@ public class SliderAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
-        return view == (ConstraintLayout) object;
+        return view == (ConstraintLayout)object;
     }
-
 
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
 
-        layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.slides_layout, container, false);
+        layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View view = layoutInflater.inflate(R.layout.slides_layout,container,false);
 
-        //hooks
         ImageView imageView = view.findViewById(R.id.slider_image);
-        TextView heading = view.findViewById(R.id.slider_heading);
-        TextView desc = view.findViewById(R.id.slider_desc);
+        @SuppressLint("CutPasteId") TextView heading = view.findViewById(R.id.slider_heading);
+        @SuppressLint("CutPasteId") TextView desc = view.findViewById(R.id.slider_heading);
 
         imageView.setImageResource(images[position]);
         heading.setText(headings[position]);
@@ -77,7 +74,6 @@ public class SliderAdapter extends PagerAdapter {
 
         return view;
     }
-
 
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {

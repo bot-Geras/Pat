@@ -49,33 +49,28 @@ public class SplashScreen extends AppCompatActivity {
         poweredByLine.setAnimation(bottomAnim);
 
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
+        new Handler().postDelayed(() -> {
 
-                onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+            onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+            boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
 
-                boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
+            if (isFirstTime) {
 
-                if (isFirstTime) {
-                    Intent intent = new Intent(SplashScreen.this, OnBoarding.class);
-                    startActivity(intent);
-                    finish();
+                SharedPreferences.Editor editor = onBoardingScreen.edit();
+                editor.putBoolean("firstTime",false);
+                editor.commit();
 
-                    SharedPreferences.Editor editor = onBoardingScreen.edit();
-                    editor.putBoolean("firstTime", false);
-                    editor.commit();
-
-                } else {
-                    Intent intent = new Intent(SplashScreen.this, PatientDashboard.class);
-                    startActivity(intent);
-                    finish();
-
-                }
+                Intent intent = new Intent(getApplicationContext(), OnBoarding.class);
+                startActivity(intent);
 
 
             }
-        }, SPLASH_TIMER);
+            else {
+                Intent intent = new Intent(getApplicationContext(), PatientDashboard.class);
+                startActivity(intent);
+            }
+            finish();
+        },SPLASH_TIMER);
 
 
     }

@@ -3,11 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/projects/PatApp/app/src/main/res/drawable/card.xml" value="0.22552083333333334" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/drawable/card_1.xml" value="0.22552083333333334" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/drawable/card_2.xml" value="0.22552083333333334" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/drawable/card_3.xml" value="0.22552083333333334" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/drawable/card_4.xml" value="0.22552083333333334" />
         <entry key="..\:/projects/PatApp/app/src/main/res/drawable/ic_next_btn.xml" value="0.1953125" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/drawable/shape.xml" value="0.22552083333333334" />
         <entry key="..\:/projects/PatApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/projects/PatApp/app/src/main/res/layout/activity_on_boarding.xml" value="0.2" />
-        <entry key="..\:/projects/PatApp/app/src/main/res/layout/activity_patient_dashboard.xml" value="0.17916666666666667" />
-        <entry key="..\:/projects/PatApp/app/src/main/res/layout/slides_layout.xml" value="0.18" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/layout/activity_on_boarding.xml" value="0.16" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/layout/activity_patient_dashboard.xml" value="0.25" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/layout/categories_card_design.xml" value="0.209375" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/layout/featured_card_design.xml" value="0.25" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/layout/most_viewed_card_design.xml" value="0.25" />
+        <entry key="..\:/projects/PatApp/app/src/main/res/layout/slides_layout.xml" value="0.22" />
         <entry key="..\:/projects/PatApp/app/src/main/res/layout/splash_screen.xml" value="0.17916666666666667" />
       </map>
     </option>
