@@ -225,15 +225,18 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/light_banner_background">
 
                 <LinearLayout
                     android:id="@+id/featured_background"
-                    android:layout_width="170dp"
+                    android:layout_width="150dp"
                     android:layout_height="280dp"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/banner_background"
                     android:orientation="vertical">
 
@@ -242,6 +245,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="50dp"
+                        android:fontFamily="@font/medium"
                         android:text="@string/featured_doctors"
                         android:textAllCaps="true"
                         android:textColor="@color/black"
@@ -258,7 +262,7 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/featured_recycler"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="match_parent"
                     android:layout_toEndOf="@id/featured_background"
                     android:background="@color/home_background" />
 
@@ -287,7 +291,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:text="@string/view_all" />
 
@@ -295,8 +299,9 @@
                 </RelativeLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/view_recycler"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:layout_height="match_parent" />
 
             </LinearLayout>
 
@@ -331,8 +336,9 @@
                 </RelativeLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/category_recycler"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:layout_height="match_parent" />
 
             </LinearLayout>
 
