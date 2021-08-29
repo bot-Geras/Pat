@@ -113,8 +113,8 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/consult" />
 
@@ -143,8 +143,8 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/med" />
 
@@ -173,8 +173,8 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/emeg" />
 
@@ -203,8 +203,8 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/cov" />
 
@@ -229,7 +229,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/light_banner_background">
 
-                <LinearLayout
+               <!-- <LinearLayout
                     android:id="@+id/featured_background"
                     android:layout_width="150dp"
                     android:layout_height="280dp"
@@ -256,14 +256,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:text="@string/featured_location_description" />
-
-                </LinearLayout>
+                        android:layout_toEndOf="@id/featured_background"
+                </LinearLayout>-->
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/featured_recycler"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_toEndOf="@id/featured_background"
+
                     android:background="@color/home_background" />
 
             </RelativeLayout>

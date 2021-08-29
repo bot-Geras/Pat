@@ -26,7 +26,7 @@
             android:layout_marginStart="10dp"
             android:layout_toEndOf="@id/mv_image"
             android:fontFamily="@font/light"
-            android:text="Dr. Adi"
+            android:text=""
             android:textSize="20sp" />
 
         <RatingBar
@@ -46,7 +46,7 @@
             android:layout_below="@id/mv_rating"
             android:layout_toEndOf="@id/mv_image"
             android:padding="10dp"
-            android:text="Dr. Adi is just plain Awesome!!" />
+            android:text="" />
 
     </RelativeLayout>
 
