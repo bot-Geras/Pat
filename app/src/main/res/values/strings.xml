@@ -15,7 +15,7 @@
     <string name="second_slide_title">Medicine</string>
     <string name="third_slide_title">Diagnosis</string>
     <string name="fourth_slide_title">Treatment Plan</string>
-    
+
     <!--strings for dashboard -->
     <!--card-->
 
@@ -40,10 +40,6 @@
     <string name="featured_doctors">All Featured Doctors </string>
 
 
-    
-    
-    
-
     <!--Description-->
 
     <string name="first_slide_desc">licensed health professionals who maintain and restore human health through the practice of medicine.</string>
@@ -51,11 +47,34 @@
     <string name="third_slide_desc"> is a procedure that is performed on a PATIENT in order to diagnose a condition disease or illness.</string>
     <string name="fourth_slide_desc"> general outline of the treatment prescribed. </string>
 
-    <!--buttons-->
+    <!--buttons menu-->
+
 
     <string name="skip_btn">skip</string>
     <string name="next_btn">Next</string>
     <string name="lets_get_started">Lets Get Started</string>
+    <string name="home">home</string>
+    <string name="search_nearby_hospitals">Search Nearby Hospitals</string>
+    <string name="profile_top">Profile</string>
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="share_top">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+
+    <!--startup text-->
+    <string name="find_help">find help you need with us</string>
+    <string name="login_start">login</string>
+    <string name="signup_start">signup</string>
+    <string name="need_start">need help?</string>
+    <string name="login_txt">login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">forget password</string>
+    <string name="login_btn">login</string>
+    <string name="create_acc">create\naccount</string>
 
 
 </resources>
